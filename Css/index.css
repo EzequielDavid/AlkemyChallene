@@ -1,0 +1,132 @@
+
+#logo
+{
+    width:12%;
+    float: left;
+    
+}
+
+/*###### FIN LOGO HEADER ######*/
+
+/*###### SECCION HEADER ######*/
+
+#formSearch
+{
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#search
+{
+    width: 50%;
+    margin-top: 2px;
+    transition: all 300ms;
+    
+}
+#icon
+{
+    margin-right: 5px;
+    margin-top: 8px;
+}
+ #botonSearch
+{
+    display: block;
+    height: 28px;
+    line-height: 10px;
+    margin-top: 2px;
+}
+
+/*########## SECCION LOGIN ################*/
+#loginContainer
+{
+    float: right;
+    margin-top: -30px;
+    font-size: 16px;
+
+}
+
+#loginContainer ul
+{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#loginContainer ul li
+{
+    height: 36px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 1px 10px;
+    line-height: 30px;
+}
+
+ #login a
+{
+    text-decoration: none;
+}
+
+#login-content
+{
+    width: 18%;
+    height: 112px;
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: black; 
+}
+
+
+#login-content form input,
+#login-content form button
+{
+    width: 85%;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+#login-content form .submit
+{
+    width: 39%;
+    height: 30px;
+    padding-bottom: 3px;
+   background: orangered;
+   color: white;
+   cursor: pointer;
+   transition: all 300ms;
+}
+#login-content form .submit:hover
+{
+    background-color: red;
+    box-shadow: 1px 0px 2px red inset;
+}
+
+.createAccount >a
+{
+    text-decoration: none;
+}
+/*########## FIN SECCION LOGIN ################*/
+
+/*########## SECCION TITULO E IMAGEN ################*/
+
+#title
+{
+    width: 40%;
+    position: absolute;
+    top: 80px;
+    left: 540px;
+    transform: rotate(-8deg);
+}
+
+#title img
+{
+    width: 70%;
+}
+

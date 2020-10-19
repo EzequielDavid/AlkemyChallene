@@ -1,0 +1,112 @@
+@media(max-width:500px)
+{
+    #contenedorLogo
+    {
+        width: 20%;
+        height: 38px;
+        line-height: 0px;
+        font-size: 12px;
+        text-align: center;
+    }
+    #logo
+    {
+        width: 40%;
+        margin-bottom: 10px;
+        margin-top: -6px;
+        margin-left: 15px;
+        
+    }
+    /*############### FIN LOGO #######################*/
+     
+     #navDemo
+    {
+        margin-top: 81px;
+        margin-bottom: -8px;
+    }
+    #navDemo >ul
+    {
+        list-style: none;
+        margin-left: -45px;
+    }
+
+    #loginMobile
+    {
+        float: right;
+        background: black;
+        width: 100%;
+        height: 100px;
+        margin-top: -35px;
+        margin-bottom: 35px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 99
+    }
+    #formMobile
+    {
+        width: 100%;
+        margin: auto;
+        margin-top: 5px;
+        position: relative;
+        z-index: 99;
+    }
+
+    #formMobile input,
+    #formMobile button
+    {
+        width: 80%;
+        font-size: 12px;
+        margin-top: 5px;
+        border-radius: 5px;
+    }
+
+  #formMobile .submit
+  {
+      width: 39%;
+      background-color: orangered;
+      color: white;
+      cursor: pointer;
+      transition: all 300ms;
+  }
+    #formMobile .submit:hover
+    {
+        background-color: red;
+        box-shadow: 1px 0px 2px red inset;
+    }
+.userSmall
+{
+    list-style: none;
+    height: 32px;
+    border-radius: 5px;
+    position: absolute;
+    right: 1px;
+    top: -40px;
+    z-index: 99;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.logout
+{
+    right: 80px !important;
+    background: black !important;
+    top: -2px;
+    color: #f1f1f1;
+    padding: 15px;
+    line-height: 0px;
+    border-radius: 8px;
+}
+    /*################### USER SESION ####################*/
+
+
+    /*########## SECCION TITULO E IMAGEN ################*/
+
+#title
+{
+    position: relative;
+    top: -280px;
+    left: 130px;
+}
+
+}

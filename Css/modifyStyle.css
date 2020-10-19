@@ -1,0 +1,67 @@
+#modify
+{
+    width: 50%;
+    float: left;
+
+}
+#upload
+{
+    width: 50%;
+    float: right;
+}
+.modifyForm
+{
+    min-height: 500px
+}
+.modifyForm ul
+{
+    list-style: none;
+}
+.modifyForm ul li textarea
+{
+    width: 50%;
+    min-height: 80px;
+}
+.modifyForm .inputUploadForm
+{
+    width: 80%;
+}
+.modifyForm .inputModifyForm
+{
+    width: 25%;
+}
+#imgCharacter
+{
+    width: 50%;
+}
+#imgType
+{
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+
+@media (max-width: 500px)
+{
+    #modify
+    {
+        width: 100% !important;
+        float: none;
+        margin-bottom: 30px;
+
+    }
+    #upload
+    {
+        width: 100% !important;
+        float: none;
+        margin-bottom: -100px;
+    }
+    .file
+    {
+        display: block;
+        width: 30%;
+        font-size: 11px;
+    }
+    
+}

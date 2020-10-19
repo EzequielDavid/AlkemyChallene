@@ -1,0 +1,16 @@
+@media(max-width:500px)
+{
+    #cardContainer
+    {
+        min-height: 150px;
+
+    }
+
+#image,
+#description
+{
+    width: 100% !important;
+    float: none !important;
+    clear: both !important;
+}
+}
